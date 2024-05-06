@@ -20,6 +20,7 @@ builder.Services.AddControllers();
 var app = builder.Build();
 
 app.MapUsersEndpoints();
+app.MapTrialsEndpoints();
 app.UseCors("ctms");
 app.MapControllers();
 await app.MigrateDbAsync();

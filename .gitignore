@@ -206,3 +206,6 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .history/
+
+# SQL Queries for testing purposes
+*.sql

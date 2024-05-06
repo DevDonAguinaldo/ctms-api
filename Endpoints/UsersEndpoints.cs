@@ -3,6 +3,7 @@ using Api.Data;
 using Api.Dtos;
 using Api.Entities;
 using Api.Mapping;
+
 namespace Api.Endpoints;
 public static class UsersEndpoints
 {
