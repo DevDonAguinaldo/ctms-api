@@ -1,4 +1,4 @@
-# Project Name: ctms-api
+# Project Name: CTMS API
 
 ## Description
 A basic CTMS API project demonstrating the use of ASP.NET Core to create a backend for clinical trial management systems. It includes examples of implementing RESTful services, handling cross-origin requests, and configuring entities.
