@@ -8,4 +8,5 @@ public class ApiContext(DbContextOptions<ApiContext> options) : DbContext(option
   public DbSet<User> Users => Set<User>();
   public DbSet<Trial> Trials => Set<Trial>();
   public DbSet<Subject> Subjects => Set<Subject>();
+  public DbSet<Visit> Visits => Set<Visit>();
 }
