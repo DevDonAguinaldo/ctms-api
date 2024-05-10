@@ -22,6 +22,7 @@ var app = builder.Build();
 app.MapUsersEndpoints();
 app.MapTrialsEndpoints();
 app.MapSubjectsEndpoints();
+app.MapVisitsEndpoints();
 app.UseCors("ctms");
 app.MapControllers();
 await app.MigrateDbAsync();
